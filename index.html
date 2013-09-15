@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo</title>
+
+	<link href="styles/todo.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<section class="todoapp">
+		<header>
+			<h1 id="top-header"><b>To do</b></h1>
+		</header>
+		<a class="new" href="#">Add Item</a>
+		<form class="create">
+			<input type="text" placeholder="Enter a to do item" />
+			<input type="submit" value="Create Item" />
+		</form>
+		<ul id="events" class="events">
+		</ul>
+		<a id='clearCompleted' href='#'>Clear Completed</a>
+	</section>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script> -->
+	<script src="js/todo.js" type="text/javascript"></script>
+</body>
+</html>

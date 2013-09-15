@@ -1,0 +1,134 @@
+body {
+  color: #313131;
+  font: 62.5%/1.5 Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  min-width: 768px;
+}
+
+.todoapp {
+  display: block;
+  background: white;
+  border: 1px solid #dedede;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 20px 40px 10px;
+  padding: 15px 15px 35px 15px;
+  z-index: 1;
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+header #top-header {
+  color: #bebebe;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  letter-spacing: -0.1em;
+  line-height: 2.2em;
+  margin: 0;
+}
+
+header #top-header b {
+  display: block;
+  font: bold 3.2em/0.8em Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.events {
+  padding-left: 0;
+}
+
+.events .event {
+  background: #f2f2f2;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  box-shadow: 0 3px 0 #66CCFF;
+  color: #777777;
+  font-size: 1.6em;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.events .event img {
+	margin-right: 20px;
+}
+
+.events .event img:hover {
+	margin-left: 3px;
+	margin-right: 17px;
+}
+
+.events .completed {
+	box-shadow: none;
+	background: #DFD6D6;
+}
+
+.completed img {
+	display: none;
+}
+
+.new {
+  margin-top: 20px;
+}
+
+.new,
+#clearCompleted,
+.create input[type="submit"] {
+  background: #66CCFF;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font: bold 1.6em Helvetica, Arial, sans-serif;
+  padding: 11px 20px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#clearCompleted {
+  background: #FF694C;
+}
+
+div input {
+  border: 2px solid #FFFF00;
+  display: block;
+  font: 1.6em "OpenSansRegular", Helvetica, Arial, sans-serif;
+  padding: 11px 20px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.new:hover,
+.create input[type="submit"]:hover {
+  text-decoration: underline;
+}
+
+.create input[type="text"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+  border: 1px solid #dedede;
+  font: 1.6em Helvetica, Arial, sans-serif;
+  padding: 10px;
+  width: 100%;
+}
+
+.create input[type="submit"] {
+  border-left: 2px solid #dedede;
+  display: block;
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 160px;
+}
+
+.create {
+  margin-top: 20px;
+  overflow: auto;
+  position: relative;
+}
